@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    margin: 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.topImage {
+    margin: 20px 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -83,6 +104,21 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-text-container {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .middle-content {
@@ -110,6 +146,41 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .teal {
+    background: teal;
+}
+
+.middle-content .boxes .gold {
+    background: gold;
+}
+
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+
+.middle-content .boxes .coral {
+    background: coral;
+}
+
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +215,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middleSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middleCard {
+    width: 46%;
+    margin-bottom: 30px;
+    border-bottom: black dashed 1px;
+}
+
+.middleCard img{
+    width: 100%;
+}
+
+.middleSection h2 {
+    margin: 10px 0 25px;
+    font-weight: bold;
+}
+
+.middleSection p {
+    margin: 10px 0 25px;
+    font-weight: bolder;
+}
+
+.button {
+    width: 130px;
+    border: solid black 2px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.bottomSection {
+    margin: 0px 20px 20px;
+    font-weight: bold;
+}
+
